@@ -79,21 +79,3 @@ converted_files = converter.convert_directory(
     custom_instructions="use metric units"  # Optional
 )
 ```
-
-## Features
-
-- Converts markdown recipe files to cooklang format using OpenAI's GPT-4
-- Handles ingredients, cookware, timers, and metadata
-- Supports both single file and directory conversion
-- Preserves recipe structure and formatting
-- CLI and Python API interfaces
-
-## Requirements
-
-- Python 3.8 or higher
-- OpenAI API key
-- Required packages: openai, click, pyyaml
-
-## License
-
-MIT License
